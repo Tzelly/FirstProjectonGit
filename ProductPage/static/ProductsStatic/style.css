@@ -248,7 +248,7 @@ ol {
 {% load static %}
 #primary-menu ul ul > li.sub-menu > a,
 #primary-menu ul ul > li.sub-menu:hover > a {
-  background-image: url("{% static 'ProductsStatic/images/submenu.png' %}");
+  background-image: url"{% static 'ProductsStatic/images/submenu.png' %}";
   background-position: right center;
   background-repeat: no-repeat;
 }
