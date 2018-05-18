@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'zqq+_s)uv*7&i&b&0(*w!l9by123a)
 
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = ['https://secure-island-32087.herokuapp.com/']
+ALLOWED_HOSTS = [".herokuapp.com"]
 
 
 # Application definition
